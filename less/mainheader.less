@@ -1,0 +1,58 @@
+.ilFixedTopSpacer {
+  padding-top: 172px;
+}
+
+/*------------ M A I N H E A D E R ------------*/
+.ilMainHeader {
+  height: 95px;
+  border-bottom: none;
+}
+
+/*------------ M A I N M E N U ------------*/
+.ilMainMenu.ilTopFixed {
+  top: 171px;
+}
+#ilMainMenuEntries {
+  width: 1400px !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+#ilTopNav.navbar-default {
+  background-color: @brand-primary;
+}
+#ilTopNav .navbar-nav > li > a {
+  color: white;
+  border-top: 4px solid transparent;
+  text-transform: inherit;
+}
+#ilTopNav .navbar-nav > li > a:hover,
+#ilTopNav .navbar-nav > li > a:active,
+#ilTopNav .navbar-nav > li > a:focus {
+  color: white;
+  background-color: darken(@brand-primary, 10%);
+}
+#ilTopNav .navbar-nav > .active > a,
+#ilTopNav .navbar-nav > .open > a,
+#ilTopNav .navbar-nav > .active > a:hover,
+#ilTopNav .navbar-nav > .open > a:hover,
+#ilTopNav .navbar-nav > .active > a:active,
+#ilTopNav .navbar-nav > .open > a:active,
+#ilTopNav .navbar-nav > .active > a:focus,
+#ilTopNav .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: darken(@brand-primary, 10%);
+  border-top: 4px solid darken(@brand-primary, 10%);
+}
+#ilTopNav {
+  margin: -38px 15px 0 15px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+}
+#ilTopNav .navbar-nav {
+  margin-left: 15px;
+}
+.dropdown-menu {
+  margin: 2px 0 0 !important;
+}
